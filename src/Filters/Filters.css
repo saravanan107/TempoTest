@@ -1,0 +1,56 @@
+
+/*	Filter Form	*/
+
+.filters{
+	box-sizing: border-box;
+	padding: 5px 30px 30px;
+	width: 190px;
+	background-color: #FFF;
+	border: 1px solid #DBE3E7;
+	border-radius: 3px;
+	box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+	position: absolute;
+	text-align: left;
+	color: #2B2E31;
+}
+
+.filters .filter-criteria{
+	display: block;
+	margin: 10px 0 10px;
+}
+
+.filters span{
+	font-size:14px;
+	display: block;
+	margin-bottom: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.filters label{
+	display: block;
+	line-height: 1.4;
+	font-size: 15px;
+}
+
+.filters label input{
+	margin-right: 10px;
+	cursor : pointer;
+	position: relative;
+
+}
+
+.filters button{
+	border-radius: 2px;
+	background-color:  #4BC34B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	cursor: pointer;
+
+	width: 95px;
+	height: 32px;
+	margin-top: 10px;
+}

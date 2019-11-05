@@ -1,0 +1,19 @@
+/*---------------------------
+	Error Page
+----------------------------*/
+
+.error{
+	pointer-events: none;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+}
+
+.error.visible{
+	opacity: 1;
+}
+
+.error h3{
+	font-size: 40px;
+}
